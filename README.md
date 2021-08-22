@@ -17,3 +17,5 @@ Split a secret in `secret.txt` into 5 shares:
 Recover a secret from the first two shares (lines) in `shares.txt`:
 
 `./twon.py recover shares.txt`
+
+To read from stdin, use `-` as a filename.
